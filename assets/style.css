@@ -77,6 +77,7 @@ nav a:hover::before{
         align-items: center;
         text-align: center; 
         padding-bottom: 50px;
+        padding-left: 180px;
         color: white;
         width: 30%;
         height: 10%;
@@ -94,8 +95,8 @@ nav a:hover::before{
       /* Bottom right text */
       .bottom-right {
         position: absolute;
-        bottom: 50px;
-        right: 20px;
+        bottom: 400px;
+        right: 120px;
         font-family: 'Bangers', cursive;
         font-size: 40px;
         color:rgb(196, 27, 140);
@@ -122,9 +123,9 @@ nav a:hover::before{
 
 
 main {
-    background-color: rgb(234, 121, 196);
+    background-color: rgb(196, 27, 140);
     grid-area: main;
-    font-size: 15px;
+    font-size: 25px;
     justify-content: center;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding); 
@@ -138,7 +139,7 @@ p {
 #sidebar {
     background-color: rgb(196, 27, 140);
     grid-area: sidebar;
-    font-size: 24px;
+    font-size: 26px;
     justify-content: start;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
